@@ -2,7 +2,7 @@
 
 # Computer-Aided Designs
 
-A flow system was fabricated to flow media through a custom 3D-printed bubble trap (bubbleTrap.stl), a central commercially availabe channel slide, and into a final 3D-printed media reservoir (mediaReservoir.stl). Finally, an interlocking tray was laser-cut into corrugated polypropylene and built to house four flow systems in parallel (corrugated_polypropylene_base.svg, corrugated_polypropylene_top_and_middle.svg).
+A flow system was fabricated to flow media through a custom 3D-printed bubble trap (bubbleTrap.stl), a central commercially availabe channel slide, and into a final 3D-printed media reservoir (mediaReservoir.stl). An interlocking tray was laser-cut into corrugated polypropylene and built to house four flow systems in parallel (corrugated_polypropylene_base.svg, corrugated_polypropylene_top_and_middle.svg).
 
 # Experimental Methods and Imaging
 
