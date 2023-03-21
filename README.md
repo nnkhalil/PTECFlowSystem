@@ -4,6 +4,10 @@
 
 A flow system was fabricated to flow media through a custom 3D-printed bubble trap (bubbleTrap.stl), a central commercially availabe channel slide, and into a final 3D-printed media reservoir (mediaReservoir.stl). An interlocking tray was laser-cut into corrugated polypropylene and built to house four flow systems in parallel (corrugated_polypropylene_base.svg, corrugated_polypropylene_top_and_middle.svg).
 
+# Multiphysics Modeling
+
+Ansys Fluent was used to create a three-dimensional (3D) approximation of the fluid path within a channel slide. The fluid path was modelled as an elliptical channel with 0.4 mm height, 5 mm width, and 50 mm length with cylindrical inlets and outlets of diameter 3.5 mm and height 5.8 mm. Shear stress was estimated along a centerline at the bottom surface of the channel, where cells would be attached, under a range of simulated volumetric flow rates (0.694-300 µL/min), which correspond to initial velocities of 1.2 x 10-8 and 5.2 x 10-4 m/s for nutritive and physiological flow conditions, respectively, calculated using the flow rate divided by the cross-sectional area. These initial flow rates were selected using a guess-and-check approach until shear stress was in the physiological range of 0.3 and 1.2 dyn/cm2. Cell media was approximated to have the viscosity and density of water, similar to previous work. After setting the initial and boundary conditions, the software solves governing conservation of mass and momentum equations to calculate shear stress. 
+
 # Experimental Methods and Imaging
 
 Human immortalized proximal tubule epithelial cells (PTECs) were cultured in channel slides and exposed to fluidic shear stress using the flow system for 3 days and subsequently fixed, immunostained, and imaged. For each chip, five widefield images were collected on a 60x oil objective with a Nikon Eclipse Ti-S inverted fluorescent microscope. Additionally, five confocal z-stacks were collected with a maximum step size of 0.4 µm on a 60x oil objective with a Nikon C2 point-scanning confocal microscope. 
